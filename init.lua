@@ -8,3 +8,8 @@ local opt = vim.opt
 -- })
 
 opt.ignorecase = false
+
+-- to set the fold method for treesitter 
+opt.foldmethod = "expr"
+opt.foldexpr = "nvim_treesitter#foldexpr()"
+opt.foldenable = false
