@@ -40,6 +40,10 @@ M.mason = {
   },
 }
 
+M.blankline = {
+  show_current_context_start = false,
+}
+
 -- git support in nvimtree
 M.nvimtree = {
   git = {

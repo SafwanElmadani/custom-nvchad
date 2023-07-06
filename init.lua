@@ -13,3 +13,6 @@ opt.ignorecase = false
 opt.foldmethod = "expr"
 opt.foldexpr = "nvim_treesitter#foldexpr()"
 opt.foldenable = false
+
+opt.cursorline = true
+opt.cursorcolumn = true

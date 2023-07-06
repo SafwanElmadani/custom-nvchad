@@ -46,6 +46,10 @@ local plugins = {
       require("better_escape").setup()
     end,
   },
+  {
+    "lukas-reineke/indent-blankline.nvim",
+    opts = overrides.blankline,
+  },
 
   -- To make a plugin not be loaded
   -- {
