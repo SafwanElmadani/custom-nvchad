@@ -38,6 +38,10 @@ local plugins = {
     opts = overrides.nvimtree,
   },
 
+  {
+    "lukas-reineke/indent-blankline.nvim",
+    opts = overrides.blankline,
+  },
   -- Install a plugin
   {
     "max397574/better-escape.nvim",
@@ -46,10 +50,6 @@ local plugins = {
       require("better_escape").setup()
     end,
   },
-  {
-    "lukas-reineke/indent-blankline.nvim",
-    opts = overrides.blankline,
-  },
 
   -- To make a plugin not be loaded
   -- {
@@ -57,6 +57,10 @@ local plugins = {
   --   enabled = false
   -- },
 
+  {
+    "lukas-reineke/indent-blankline.nvim",
+    enabled = false,
+  },
   -- All NvChad plugins are lazy-loaded by default
   -- For a plugin to be loaded, you will need to set either `ft`, `cmd`, `keys`, `event`, or set `lazy = false`
   -- If you want a plugin to load on startup, add `lazy = false` to a plugin spec, for example
