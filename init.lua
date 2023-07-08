@@ -20,3 +20,5 @@ opt.cursorcolumn = true
 vim.api.nvim_set_hl(0, 'CursorLine', {background = "cyan" })
 -- vim.api.nvim_set_hl(0, 'CursorLine', {background = "#125000" })
 -- opt.cursorlineopt = "both"
+-- restore clipboard normal behavior
+opt.clipboard = ""
