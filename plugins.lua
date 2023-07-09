@@ -60,6 +60,7 @@ local plugins = {
       require('lualine').setup()
         -- options = { theme  = 'gruvbox' },
     end,
+    enabled = false,
   },
 
   -- To make a plugin not be loaded
