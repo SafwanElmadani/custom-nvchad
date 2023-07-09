@@ -51,6 +51,17 @@ local plugins = {
     end,
   },
 
+  {
+    "nvim-lualine/lualine.nvim",
+    init = function()
+      require('lualine').get_config()
+    end,
+    config = function()
+      require('lualine').setup()
+        -- options = { theme  = 'gruvbox' },
+    end,
+  },
+
   -- To make a plugin not be loaded
   -- {
   --   "NvChad/nvim-colorizer.lua",
